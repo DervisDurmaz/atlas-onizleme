@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The theme of the shell (ADR-0050), on the root element before anything is painted: the light one
+         unless the reader chose the dark one on an earlier visit (src/state/theme.ts keeps the same key).
+         The system's colour preference does not choose. The two grounds below are --color-ground of the
+         two themes (tokens.css), so the first paint is the theme's own ground and never a flash of the
+         other; the browser chrome takes the same colour (theme.test.ts holds these values to the tokens). -->
+    <meta name="theme-color" content="#f2f4f7" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      (function () {
+        var theme = 'light';
+        try {
+          if (window.localStorage.getItem('marikultur-atlas:theme') === 'dark') theme = 'dark';
+        } catch (e) {
+          /* no storage: the default theme on each load */
+        }
+        document.documentElement.setAttribute('data-theme', theme);
+        if (theme === 'dark') document.querySelector('meta[name="theme-color"]').setAttribute('content', '#081827');
+      })();
+    </script>
+    <style>@media screen{html,body{background:#f2f4f7}html[data-theme=dark],html[data-theme=dark] body{background:#081827}}</style>
+    <title>Deniz Yetiştiriciliği Uygunluk Atlası</title>
+    <script type="module" crossorigin src="/atlas-onizleme/assets/index-p8ZPsSG_.js"></script>
+    <link rel="modulepreload" crossorigin href="/atlas-onizleme/assets/jsx-runtime-C3PlZxcg.js">
+    <link rel="stylesheet" crossorigin href="/atlas-onizleme/assets/index-D8zCD4QV.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

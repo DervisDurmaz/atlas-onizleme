@@ -1,0 +1,1370 @@
+{
+  "format": "marikultur-best-sites/1",
+  "aoi": "marmara",
+  "layer_id": "suitability_scores",
+  "scale": {
+    "score_max": 250
+  },
+  "method": {
+    "top_n": 5,
+    "min_cells": 4,
+    "connectivity": 8,
+    "excluded": "left_out",
+    "uncertain": "share",
+    "conditional": "share",
+    "uncertain_share_max": 0.5,
+    "order": [
+      "uncertain_high asc",
+      "score_mean desc",
+      "cells desc"
+    ],
+    "class": "highest_class_with_patch",
+    "support": "mean sqrt(c_model*c_land)",
+    "rules": "all_on"
+  },
+  "series": {
+    "mytilus_galloprovincialis.bivalve_longline": {
+      "species": "mytilus_galloprovincialis",
+      "tech_class": "bivalve_longline",
+      "system": "bivalve_longline",
+      "excluded_mask": true,
+      "months": {
+        "m01": {
+          "cells_considered": 269952,
+          "class_id": 5,
+          "sites": [
+            {
+              "lon": 27.7401,
+              "lat": 40.4536,
+              "bbox": [
+                27.7396,
+                40.4521,
+                27.7417,
+                40.4542
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 250.0,
+              "score_max": 250,
+              "support": 0.851,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": null,
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.6516,
+              "lat": 40.4568,
+              "bbox": [
+                27.65,
+                40.4552,
+                27.6521,
+                40.4583
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 247.75,
+              "score_max": 250,
+              "support": 0.986,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0474,
+              "lat": 41.0609,
+              "bbox": [
+                29.0375,
+                41.0469,
+                29.0562,
+                41.0781
+              ],
+              "cells": 189,
+              "area_km2": 1.914,
+              "score_mean": 246.48,
+              "score_max": 250,
+              "support": 0.379,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.7443,
+              "lat": 40.5203,
+              "bbox": [
+                27.7427,
+                40.5177,
+                27.7458,
+                40.5219
+              ],
+              "cells": 10,
+              "area_km2": 0.102,
+              "score_mean": 246.0,
+              "score_max": 250,
+              "support": 0.529,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0609,
+              "lat": 41.0786,
+              "bbox": [
+                29.0573,
+                41.076,
+                29.0625,
+                41.0813
+              ],
+              "cells": 18,
+              "area_km2": 0.182,
+              "score_mean": 244.11,
+              "score_max": 250,
+              "support": 0.41,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            }
+          ]
+        },
+        "m02": {
+          "cells_considered": 269952,
+          "class_id": 5,
+          "sites": [
+            {
+              "lon": 27.7401,
+              "lat": 40.4536,
+              "bbox": [
+                27.7396,
+                40.4521,
+                27.7417,
+                40.4542
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 250.0,
+              "score_max": 250,
+              "support": 0.851,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": null,
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.6516,
+              "lat": 40.4568,
+              "bbox": [
+                27.65,
+                40.4552,
+                27.6521,
+                40.4583
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 247.75,
+              "score_max": 250,
+              "support": 0.986,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0474,
+              "lat": 41.0609,
+              "bbox": [
+                29.0375,
+                41.0469,
+                29.0562,
+                41.0781
+              ],
+              "cells": 189,
+              "area_km2": 1.914,
+              "score_mean": 246.48,
+              "score_max": 250,
+              "support": 0.379,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.7443,
+              "lat": 40.5203,
+              "bbox": [
+                27.7427,
+                40.5177,
+                27.7458,
+                40.5219
+              ],
+              "cells": 10,
+              "area_km2": 0.102,
+              "score_mean": 246.0,
+              "score_max": 250,
+              "support": 0.529,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0609,
+              "lat": 41.0786,
+              "bbox": [
+                29.0573,
+                41.076,
+                29.0625,
+                41.0813
+              ],
+              "cells": 18,
+              "area_km2": 0.182,
+              "score_mean": 244.11,
+              "score_max": 250,
+              "support": 0.41,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            }
+          ]
+        },
+        "m03": {
+          "cells_considered": 269952,
+          "class_id": 5,
+          "sites": [
+            {
+              "lon": 27.7401,
+              "lat": 40.4536,
+              "bbox": [
+                27.7396,
+                40.4521,
+                27.7417,
+                40.4542
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 250.0,
+              "score_max": 250,
+              "support": 0.851,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": null,
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.6516,
+              "lat": 40.4568,
+              "bbox": [
+                27.65,
+                40.4552,
+                27.6521,
+                40.4583
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 247.75,
+              "score_max": 250,
+              "support": 0.986,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0474,
+              "lat": 41.0609,
+              "bbox": [
+                29.0375,
+                41.0469,
+                29.0562,
+                41.0781
+              ],
+              "cells": 189,
+              "area_km2": 1.914,
+              "score_mean": 246.48,
+              "score_max": 250,
+              "support": 0.379,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.7443,
+              "lat": 40.5203,
+              "bbox": [
+                27.7427,
+                40.5177,
+                27.7458,
+                40.5219
+              ],
+              "cells": 10,
+              "area_km2": 0.102,
+              "score_mean": 246.0,
+              "score_max": 250,
+              "support": 0.529,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0609,
+              "lat": 41.0786,
+              "bbox": [
+                29.0573,
+                41.076,
+                29.0625,
+                41.0813
+              ],
+              "cells": 18,
+              "area_km2": 0.182,
+              "score_mean": 244.11,
+              "score_max": 250,
+              "support": 0.41,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            }
+          ]
+        },
+        "m04": {
+          "cells_considered": 269952,
+          "class_id": 5,
+          "sites": [
+            {
+              "lon": 27.7401,
+              "lat": 40.4536,
+              "bbox": [
+                27.7396,
+                40.4521,
+                27.7417,
+                40.4542
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 250.0,
+              "score_max": 250,
+              "support": 0.851,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": null,
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.6516,
+              "lat": 40.4568,
+              "bbox": [
+                27.65,
+                40.4552,
+                27.6521,
+                40.4583
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 247.75,
+              "score_max": 250,
+              "support": 0.986,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0474,
+              "lat": 41.0609,
+              "bbox": [
+                29.0375,
+                41.0469,
+                29.0562,
+                41.0781
+              ],
+              "cells": 189,
+              "area_km2": 1.914,
+              "score_mean": 246.48,
+              "score_max": 250,
+              "support": 0.379,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.7443,
+              "lat": 40.5203,
+              "bbox": [
+                27.7427,
+                40.5177,
+                27.7458,
+                40.5219
+              ],
+              "cells": 10,
+              "area_km2": 0.102,
+              "score_mean": 246.0,
+              "score_max": 250,
+              "support": 0.529,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0609,
+              "lat": 41.0786,
+              "bbox": [
+                29.0573,
+                41.076,
+                29.0625,
+                41.0813
+              ],
+              "cells": 18,
+              "area_km2": 0.182,
+              "score_mean": 244.11,
+              "score_max": 250,
+              "support": 0.41,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            }
+          ]
+        },
+        "m05": {
+          "cells_considered": 269952,
+          "class_id": 5,
+          "sites": [
+            {
+              "lon": 27.7401,
+              "lat": 40.4536,
+              "bbox": [
+                27.7396,
+                40.4521,
+                27.7417,
+                40.4542
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 250.0,
+              "score_max": 250,
+              "support": 0.851,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": null,
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.6516,
+              "lat": 40.4568,
+              "bbox": [
+                27.65,
+                40.4552,
+                27.6521,
+                40.4583
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 247.75,
+              "score_max": 250,
+              "support": 0.986,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0474,
+              "lat": 41.0609,
+              "bbox": [
+                29.0375,
+                41.0469,
+                29.0562,
+                41.0781
+              ],
+              "cells": 189,
+              "area_km2": 1.914,
+              "score_mean": 246.48,
+              "score_max": 250,
+              "support": 0.379,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.7443,
+              "lat": 40.5203,
+              "bbox": [
+                27.7427,
+                40.5177,
+                27.7458,
+                40.5219
+              ],
+              "cells": 10,
+              "area_km2": 0.102,
+              "score_mean": 246.0,
+              "score_max": 250,
+              "support": 0.529,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0609,
+              "lat": 41.0786,
+              "bbox": [
+                29.0573,
+                41.076,
+                29.0625,
+                41.0813
+              ],
+              "cells": 18,
+              "area_km2": 0.182,
+              "score_mean": 244.11,
+              "score_max": 250,
+              "support": 0.41,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            }
+          ]
+        },
+        "m06": {
+          "cells_considered": 269952,
+          "class_id": 5,
+          "sites": [
+            {
+              "lon": 29.0474,
+              "lat": 41.0609,
+              "bbox": [
+                29.0375,
+                41.0469,
+                29.0562,
+                41.0781
+              ],
+              "cells": 189,
+              "area_km2": 1.914,
+              "score_mean": 246.48,
+              "score_max": 250,
+              "support": 0.379,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0609,
+              "lat": 41.0786,
+              "bbox": [
+                29.0573,
+                41.076,
+                29.0625,
+                41.0813
+              ],
+              "cells": 18,
+              "area_km2": 0.182,
+              "score_mean": 244.11,
+              "score_max": 250,
+              "support": 0.41,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.7255,
+              "lat": 40.7547,
+              "bbox": [
+                29.5188,
+                40.6906,
+                29.9323,
+                40.7802
+              ],
+              "cells": 6323,
+              "area_km2": 64.353,
+              "score_mean": 242.37,
+              "score_max": 250,
+              "support": 0.252,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 28.8818,
+              "lat": 40.9422,
+              "bbox": [
+                28.201,
+                40.7458,
+                29.4969,
+                41.0729
+              ],
+              "cells": 25881,
+              "area_km2": 262.636,
+              "score_mean": 241.21,
+              "score_max": 250,
+              "support": 0.866,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.2016,
+              "lat": 40.6609,
+              "bbox": [
+                29.1479,
+                40.6562,
+                29.2479,
+                40.6656
+              ],
+              "cells": 374,
+              "area_km2": 3.811,
+              "score_mean": 240.61,
+              "score_max": 250,
+              "support": 0.722,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            }
+          ]
+        },
+        "m07": {
+          "cells_considered": 269952,
+          "class_id": 5,
+          "sites": [
+            {
+              "lon": 29.0453,
+              "lat": 41.0495,
+              "bbox": [
+                29.0385,
+                41.0469,
+                29.0562,
+                41.0781
+              ],
+              "cells": 181,
+              "area_km2": 1.833,
+              "score_mean": 227.92,
+              "score_max": 231,
+              "support": 0.379,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "temperature_c",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.062,
+              "lat": 41.0911,
+              "bbox": [
+                29.0594,
+                41.0865,
+                29.0646,
+                41.1
+              ],
+              "cells": 27,
+              "area_km2": 0.273,
+              "score_mean": 226.48,
+              "score_max": 228,
+              "support": 0.41,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "temperature_c",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0599,
+              "lat": 41.0797,
+              "bbox": [
+                29.0573,
+                41.076,
+                29.0625,
+                41.0813
+              ],
+              "cells": 17,
+              "area_km2": 0.172,
+              "score_mean": 224.12,
+              "score_max": 228,
+              "support": 0.41,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "temperature_c",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0578,
+              "lat": 41.0964,
+              "bbox": [
+                29.0573,
+                41.0938,
+                29.0594,
+                41.101
+              ],
+              "cells": 8,
+              "area_km2": 0.081,
+              "score_mean": 217.75,
+              "score_max": 228,
+              "support": 0.41,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "temperature_c",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0016,
+              "lat": 41.0005,
+              "bbox": [
+                28.8458,
+                40.85,
+                29.251,
+                41.0469
+              ],
+              "cells": 10333,
+              "area_km2": 104.861,
+              "score_mean": 212.91,
+              "score_max": 231,
+              "support": 0.884,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "temperature_c",
+              "uncertain_high": true
+            }
+          ]
+        },
+        "m08": {
+          "cells_considered": 269952,
+          "class_id": 5,
+          "sites": [
+            {
+              "lon": 29.9005,
+              "lat": 40.738,
+              "bbox": [
+                29.8,
+                40.7219,
+                29.9312,
+                40.7521
+              ],
+              "cells": 1870,
+              "area_km2": 19.033,
+              "score_mean": 211.6,
+              "score_max": 215,
+              "support": 0.082,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "temperature_c",
+              "uncertain_high": true
+            },
+            {
+              "lon": 28.987,
+              "lat": 41.0214,
+              "bbox": [
+                28.9844,
+                41.0198,
+                28.9896,
+                41.0229
+              ],
+              "cells": 9,
+              "area_km2": 0.091,
+              "score_mean": 203.0,
+              "score_max": 203,
+              "support": 0.785,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "temperature_c",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0016,
+              "lat": 41.0005,
+              "bbox": [
+                28.9906,
+                40.95,
+                29.0542,
+                41.0469
+              ],
+              "cells": 1252,
+              "area_km2": 12.696,
+              "score_mean": 201.29,
+              "score_max": 204,
+              "support": 0.821,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "temperature_c",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0443,
+              "lat": 41.0495,
+              "bbox": [
+                29.0396,
+                41.0469,
+                29.05,
+                41.0656
+              ],
+              "cells": 116,
+              "area_km2": 1.175,
+              "score_mean": 201.24,
+              "score_max": 204,
+              "support": 0.368,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "temperature_c",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0495,
+              "lat": 41.0734,
+              "bbox": [
+                29.049,
+                41.0698,
+                29.05,
+                41.076
+              ],
+              "cells": 6,
+              "area_km2": 0.061,
+              "score_mean": 201.0,
+              "score_max": 201,
+              "support": 0.41,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "temperature_c",
+              "uncertain_high": true
+            }
+          ]
+        },
+        "m09": {
+          "cells_considered": 269952,
+          "class_id": 5,
+          "sites": [
+            {
+              "lon": 29.0474,
+              "lat": 41.0609,
+              "bbox": [
+                29.0375,
+                41.0469,
+                29.0562,
+                41.0781
+              ],
+              "cells": 189,
+              "area_km2": 1.914,
+              "score_mean": 246.48,
+              "score_max": 250,
+              "support": 0.379,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0609,
+              "lat": 41.0786,
+              "bbox": [
+                29.0573,
+                41.076,
+                29.0625,
+                41.0813
+              ],
+              "cells": 18,
+              "area_km2": 0.182,
+              "score_mean": 244.11,
+              "score_max": 250,
+              "support": 0.41,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.7255,
+              "lat": 40.7547,
+              "bbox": [
+                29.5188,
+                40.6906,
+                29.9323,
+                40.7802
+              ],
+              "cells": 6323,
+              "area_km2": 64.353,
+              "score_mean": 242.37,
+              "score_max": 250,
+              "support": 0.252,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.2016,
+              "lat": 40.6609,
+              "bbox": [
+                29.1479,
+                40.6562,
+                29.2479,
+                40.6656
+              ],
+              "cells": 374,
+              "area_km2": 3.811,
+              "score_mean": 240.61,
+              "score_max": 250,
+              "support": 0.722,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 26.4589,
+              "lat": 40.2057,
+              "bbox": [
+                26.2323,
+                40.05,
+                26.65,
+                40.3448
+              ],
+              "cells": 9528,
+              "area_km2": 97.736,
+              "score_mean": 240.45,
+              "score_max": 250,
+              "support": 0.707,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            }
+          ]
+        },
+        "m10": {
+          "cells_considered": 269952,
+          "class_id": 5,
+          "sites": [
+            {
+              "lon": 27.7401,
+              "lat": 40.4536,
+              "bbox": [
+                27.7396,
+                40.4521,
+                27.7417,
+                40.4542
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 250.0,
+              "score_max": 250,
+              "support": 0.851,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": null,
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.6516,
+              "lat": 40.4568,
+              "bbox": [
+                27.65,
+                40.4552,
+                27.6521,
+                40.4583
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 247.75,
+              "score_max": 250,
+              "support": 0.986,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0474,
+              "lat": 41.0609,
+              "bbox": [
+                29.0375,
+                41.0469,
+                29.0562,
+                41.0781
+              ],
+              "cells": 189,
+              "area_km2": 1.914,
+              "score_mean": 246.48,
+              "score_max": 250,
+              "support": 0.379,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.7443,
+              "lat": 40.5203,
+              "bbox": [
+                27.7427,
+                40.5177,
+                27.7458,
+                40.5219
+              ],
+              "cells": 10,
+              "area_km2": 0.102,
+              "score_mean": 246.0,
+              "score_max": 250,
+              "support": 0.529,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0609,
+              "lat": 41.0786,
+              "bbox": [
+                29.0573,
+                41.076,
+                29.0625,
+                41.0813
+              ],
+              "cells": 18,
+              "area_km2": 0.182,
+              "score_mean": 244.11,
+              "score_max": 250,
+              "support": 0.41,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            }
+          ]
+        },
+        "m11": {
+          "cells_considered": 269952,
+          "class_id": 5,
+          "sites": [
+            {
+              "lon": 27.7401,
+              "lat": 40.4536,
+              "bbox": [
+                27.7396,
+                40.4521,
+                27.7417,
+                40.4542
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 250.0,
+              "score_max": 250,
+              "support": 0.851,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": null,
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.6516,
+              "lat": 40.4568,
+              "bbox": [
+                27.65,
+                40.4552,
+                27.6521,
+                40.4583
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 247.75,
+              "score_max": 250,
+              "support": 0.986,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0474,
+              "lat": 41.0609,
+              "bbox": [
+                29.0375,
+                41.0469,
+                29.0562,
+                41.0781
+              ],
+              "cells": 189,
+              "area_km2": 1.914,
+              "score_mean": 246.48,
+              "score_max": 250,
+              "support": 0.379,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.7443,
+              "lat": 40.5203,
+              "bbox": [
+                27.7427,
+                40.5177,
+                27.7458,
+                40.5219
+              ],
+              "cells": 10,
+              "area_km2": 0.102,
+              "score_mean": 246.0,
+              "score_max": 250,
+              "support": 0.529,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0609,
+              "lat": 41.0786,
+              "bbox": [
+                29.0573,
+                41.076,
+                29.0625,
+                41.0813
+              ],
+              "cells": 18,
+              "area_km2": 0.182,
+              "score_mean": 244.11,
+              "score_max": 250,
+              "support": 0.41,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            }
+          ]
+        },
+        "m12": {
+          "cells_considered": 269952,
+          "class_id": 5,
+          "sites": [
+            {
+              "lon": 27.7401,
+              "lat": 40.4536,
+              "bbox": [
+                27.7396,
+                40.4521,
+                27.7417,
+                40.4542
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 250.0,
+              "score_max": 250,
+              "support": 0.851,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": null,
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.6516,
+              "lat": 40.4568,
+              "bbox": [
+                27.65,
+                40.4552,
+                27.6521,
+                40.4583
+              ],
+              "cells": 4,
+              "area_km2": 0.041,
+              "score_mean": 247.75,
+              "score_max": 250,
+              "support": 0.986,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0474,
+              "lat": 41.0609,
+              "bbox": [
+                29.0375,
+                41.0469,
+                29.0562,
+                41.0781
+              ],
+              "cells": 189,
+              "area_km2": 1.914,
+              "score_mean": 246.48,
+              "score_max": 250,
+              "support": 0.379,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 27.7443,
+              "lat": 40.5203,
+              "bbox": [
+                27.7427,
+                40.5177,
+                27.7458,
+                40.5219
+              ],
+              "cells": 10,
+              "area_km2": 0.102,
+              "score_mean": 246.0,
+              "score_max": 250,
+              "support": 0.529,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0609,
+              "lat": 41.0786,
+              "bbox": [
+                29.0573,
+                41.076,
+                29.0625,
+                41.0813
+              ],
+              "cells": 18,
+              "area_km2": 0.182,
+              "score_mean": 244.11,
+              "score_max": 250,
+              "support": 0.41,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "depth_preference",
+              "uncertain_high": true
+            }
+          ]
+        },
+        "annual": {
+          "cells_considered": 269952,
+          "class_id": 5,
+          "sites": [
+            {
+              "lon": 29.9005,
+              "lat": 40.738,
+              "bbox": [
+                29.8,
+                40.7219,
+                29.9312,
+                40.7521
+              ],
+              "cells": 1860,
+              "area_km2": 18.931,
+              "score_mean": 210.66,
+              "score_max": 214,
+              "support": 0.082,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "temperature_c",
+              "uncertain_high": true
+            },
+            {
+              "lon": 28.987,
+              "lat": 41.0214,
+              "bbox": [
+                28.9844,
+                41.0198,
+                28.9896,
+                41.0229
+              ],
+              "cells": 9,
+              "area_km2": 0.091,
+              "score_mean": 203.0,
+              "score_max": 203,
+              "support": 0.785,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "temperature_c",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0016,
+              "lat": 41.0005,
+              "bbox": [
+                28.9906,
+                40.95,
+                29.0542,
+                41.0469
+              ],
+              "cells": 1252,
+              "area_km2": 12.696,
+              "score_mean": 201.29,
+              "score_max": 204,
+              "support": 0.821,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "temperature_c",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0443,
+              "lat": 41.0495,
+              "bbox": [
+                29.0396,
+                41.0469,
+                29.05,
+                41.0656
+              ],
+              "cells": 116,
+              "area_km2": 1.175,
+              "score_mean": 201.24,
+              "score_max": 204,
+              "support": 0.368,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "temperature_c",
+              "uncertain_high": true
+            },
+            {
+              "lon": 29.0495,
+              "lat": 41.0734,
+              "bbox": [
+                29.049,
+                41.0698,
+                29.05,
+                41.076
+              ],
+              "cells": 6,
+              "area_km2": 0.061,
+              "score_mean": 201.0,
+              "score_max": 201,
+              "support": 0.41,
+              "uncertain_share": 1.0,
+              "conditional_share": 1.0,
+              "limiting": "temperature_c",
+              "uncertain_high": true
+            }
+          ]
+        }
+      }
+    }
+  },
+  "provenance": {
+    "generated_by": "marikultur export build",
+    "config_git_hash": "8cb0ebfdcbdd34a2a0b868cd7d03289155c06983",
+    "score_item": "layer:suitability_scores@marmara",
+    "mask_item": "layer:exclusion_masks@marmara",
+    "score_files_sha256": {
+      "score.mytilus_galloprovincialis.bivalve_longline.annual": "88c8fb6fa7dd2429bcd15820b662c02f50e478f86ca1d81078cfb6d1fede6d6c",
+      "score.mytilus_galloprovincialis.bivalve_longline.m01": "cdb1cfab5de73c619fcb4b7057f5318386c3fddfd3795fb9494f12e95ab2d969",
+      "score.mytilus_galloprovincialis.bivalve_longline.m02": "cdb1cfab5de73c619fcb4b7057f5318386c3fddfd3795fb9494f12e95ab2d969",
+      "score.mytilus_galloprovincialis.bivalve_longline.m03": "cdb1cfab5de73c619fcb4b7057f5318386c3fddfd3795fb9494f12e95ab2d969",
+      "score.mytilus_galloprovincialis.bivalve_longline.m04": "cdb1cfab5de73c619fcb4b7057f5318386c3fddfd3795fb9494f12e95ab2d969",
+      "score.mytilus_galloprovincialis.bivalve_longline.m05": "cdb1cfab5de73c619fcb4b7057f5318386c3fddfd3795fb9494f12e95ab2d969",
+      "score.mytilus_galloprovincialis.bivalve_longline.m06": "39f902609a74d2836a1ba206cfa1df889b6ae8fd9103fc542bbb5164118db4e8",
+      "score.mytilus_galloprovincialis.bivalve_longline.m07": "cff48f66b08aa94c42d4b203d00fd6f368cca401799e337cb4c701bb67430086",
+      "score.mytilus_galloprovincialis.bivalve_longline.m08": "5f1edb8874c4995324fc1b9a0c62d57e9eb21c9e6aa4b1acc26c585af3debeb5",
+      "score.mytilus_galloprovincialis.bivalve_longline.m09": "72e4b88dead46007299e941ee9d9ec60c0423ac15219766b5b609857c0bf6ce7",
+      "score.mytilus_galloprovincialis.bivalve_longline.m10": "cdb1cfab5de73c619fcb4b7057f5318386c3fddfd3795fb9494f12e95ab2d969",
+      "score.mytilus_galloprovincialis.bivalve_longline.m11": "cdb1cfab5de73c619fcb4b7057f5318386c3fddfd3795fb9494f12e95ab2d969",
+      "score.mytilus_galloprovincialis.bivalve_longline.m12": "cdb1cfab5de73c619fcb4b7057f5318386c3fddfd3795fb9494f12e95ab2d969",
+      "quality": "5d8b89380ad173802bedc732b1e530ee947087aff8e7c5dc403ea4e7faa3553e"
+    }
+  }
+}
