@@ -1,0 +1,67 @@
+{
+ "command": "marikultur export cover-stack",
+ "created_on": "2026-11-28",
+ "git_hash": "dd347c51896d1ee8dc1e7f9bd626b54be7e90fe6",
+ "window": [
+  26.3,
+  38.4,
+  26.75,
+  38.8
+ ],
+ "example": {
+  "species": "sparus_aurata",
+  "system": "finfish_cage",
+  "tech": "conventional_nearshore",
+  "sea": "aegean"
+ },
+ "satellite": {
+  "collection": "sentinel-2-l2a",
+  "asset": "visual",
+  "service": "Microsoft Planetary Computer data API (item/bbox)",
+  "scenes": {
+   "2016": {
+    "id": "S2A_MSIL2A_20160806T085602_R007_T35SMC_20210212T113912",
+    "date": "2016-08-06"
+   },
+   "2019": {
+    "id": "S2B_MSIL2A_20190627T085609_R007_T35SMC_20201006T070845",
+    "date": "2019-06-27"
+   },
+   "2022": {
+    "id": "S2B_MSIL2A_20220820T085559_R007_T35SMC_20240703T104929",
+    "date": "2022-08-20"
+   },
+   "2026": {
+    "id": "S2A_MSIL2A_20260826T090411_R007_T35SMC_20260826T152957",
+    "date": "2026-08-26"
+   }
+  },
+  "crops_sha256": {
+   "y2016.png": "e46d51446c896b2ed223c65b8da7cb0fd1a23aa381bfc2d6d08735aaf85529a2",
+   "y2019.png": "2abf3daf2e948e9b7a64d3901b8d4a6a5230d1f053740ac987a73ff816a4b1a7",
+   "y2022.png": "5d31ae592c7c619ec363baaad0eecaedbaf0d6c82f1d8b10ee58f681ccaa42ee",
+   "y2026.png": "84ad0a39e31003b86f6156d41843abba869fec4acf471a3bde854a40285ea699"
+  },
+  "attribution": "Contains modified Copernicus Sentinel data, processed by TAGEM"
+ },
+ "landcover": {
+  "collection": "esa-worldcover",
+  "product_version": "2.0.0",
+  "overview": "1/64",
+  "resampling": "mode",
+  "file_sha256": "39e1a1fa53aa79aa851619f465ec6c50f9bd3c12b8e44339a0625e2632b9f8c8",
+  "licence": "CC BY 4.0",
+  "attribution": "© ESA WorldCover project 2021 / Contains modified Copernicus Sentinel data (2021) processed by ESA WorldCover consortium"
+ },
+ "sources": [
+  "web/public/data (public layers, registry.json, methodology.json)",
+  "config/rules.yaml",
+  "config/technology.yaml",
+  "config/locks/rule_bits.json",
+  "data/interim/faz1/aegean/ocean/master.zarr",
+  "data/raw/coastline (OSM land polygons, ODbL)",
+  "data/interim/farms (scan tile folders: counts and tile names)",
+  "data/inventory/opendata_downloads.json",
+  "data/interim/faz1/<sea>/domain.zarr (cell counts)"
+ ]
+}

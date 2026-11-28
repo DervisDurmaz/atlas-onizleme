@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-WO7ah7TJajNGMQqE+dHgpvIYUIImWNfemEsJmC9H3Sg=' 'wasm-unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob: https://ows.emodnet-bathymetry.eu https://wms.gebco.net; font-src 'self' data:; worker-src 'self' blob:; connect-src 'self' data: blob: https://tiles.openfreemap.org https://ows.emodnet-bathymetry.eu https://wms.gebco.net https://atlas-asistan.azurewebsites.net; object-src 'none'; base-uri 'none'" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The theme of the shell (ADR-0050), on the root element before anything is painted: the light one
+         unless the reader chose the dark one on an earlier visit (src/state/theme.ts keeps the same key).
+         The system's colour preference does not choose. The two grounds below are --color-ground of the
+         two themes (tokens.css), so the first paint is the theme's own ground and never a flash of the
+         other; the browser chrome takes the same colour (theme.test.ts holds these values to the tokens). -->
+    <meta name="theme-color" content="#f2f4f7" />
+    <meta name="color-scheme" content="light dark" />
+    <script>
+      (function () {
+        var theme = 'light';
+        try {
+          if (window.localStorage.getItem('marikultur-atlas:theme') === 'dark') theme = 'dark';
+        } catch (e) {
+          /* no storage: the default theme on each load */
+        }
+        document.documentElement.setAttribute('data-theme', theme);
+        if (theme === 'dark') document.querySelector('meta[name="theme-color"]').setAttribute('content', '#081827');
+      })();
+    </script>
+    <style>@media screen{html,body{background:#f2f4f7}html[data-theme=dark],html[data-theme=dark] body{background:#081827}}</style>
+    <title>Deniz Yetiştiriciliği Uygunluk Atlası</title>
+    <script type="module" crossorigin src="/atlas-onizleme/assets/index-DcupxCzw.js"></script>
+    <link rel="modulepreload" crossorigin href="/atlas-onizleme/assets/rolldown-runtime-XKyaHtl9.js">
+    <link rel="modulepreload" crossorigin href="/atlas-onizleme/assets/jsx-runtime-DMiKK3c5.js">
+    <link rel="modulepreload" crossorigin href="/atlas-onizleme/assets/react-DlmbjZJV.js">
+    <link rel="modulepreload" crossorigin href="/atlas-onizleme/assets/preload-helper-BNFemTpn.js">
+    <link rel="modulepreload" crossorigin href="/atlas-onizleme/assets/react-BdvD_MUU.js">
+    <link rel="modulepreload" crossorigin href="/atlas-onizleme/assets/registry-Db-4Gh9_.js">
+    <link rel="stylesheet" crossorigin href="/atlas-onizleme/assets/index-CmJEoipv.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
